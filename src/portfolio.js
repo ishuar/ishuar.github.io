@@ -26,7 +26,7 @@ const greeting = {
     "Skilled DevOps Engineer 🚀  with expertise in Terraform, Kubernetes, Public Cloud (AWS and Azure), and GitOps. Experienced in architecting and optimizing scalable infrastructure solutions for web applications. Committed to automation, efficiency, and continuous improvement."
   ),
   resumeLink:
-    "https://drive.google.com/drive/u/0/folders/1Z0OFZe1Q_IFSZzkLJUuQzrfvL7RcSptv", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1Mx2uzGj7915ywvu4lTImrNZ_VoWn_pBD/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -47,22 +47,16 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I have learned so far.",
-  subTitle: "Eager to expand knowledge and acquire new skills to stay at the forefront of industry trends and advancements.",
+  subTitle:
+    "Eager to expand knowledge and acquire new skills to stay at the forefront of industry trends and advancements.",
   skills: [
-    emoji(
-      "⚡ Migrations from CLICKOPS to Infrastructure as Code."
-    ),
-    emoji(
-      "⚡ Maintaining production grade Kubernetes clusters."
-    ),
-    emoji(
-      "⚡ Educate and support enterprises in their cloud journey."
-    )
+    emoji("⚡ Migrations from CLICKOPS to Infrastructure as Code."),
+    emoji("⚡ Maintaining production grade Kubernetes clusters."),
+    emoji("⚡ Educate and support enterprises in their cloud journey.")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
-
 
   softwareSkills: [
     {
@@ -128,10 +122,8 @@ const educationInfo = {
       subHeader: "Bachelor of Science in Electronics",
       duration: "September 2016",
       desc: "",
-      descBullets: [
-
-      ]
-    },
+      descBullets: []
+    }
   ]
 };
 
@@ -151,7 +143,7 @@ const techStack = {
     {
       Stack: "Public Cloud",
       progressPercentage: "75%"
-    },
+    }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -193,7 +185,7 @@ const workExperiences = {
       desc: "Creative Cloud suite and Single sign on consultant.",
       descBullets: [
         "Providing global Support for Adobe's Creative Cloud suite as a single sign on & product expert."
-      ],
+      ]
     },
     {
       role: "Analyst",
@@ -203,7 +195,7 @@ const workExperiences = {
       desc: "IT Infrastrucutre Support Analyst.",
       descBullets: [
         "Supporting IT infrastructure of ExxonMobil Corporation with a major role in analyzing & troubleshooting multiple end-userprograms."
-      ],
+      ]
     }
   ]
 };
@@ -248,7 +240,6 @@ const bigProjects = {
   ],
   // display: FontFaceSetLoadEvent // Set false to hide this section, defaults to true
   display: false // Set false to hide this section, defaults to true
-
 };
 
 // Achievement Section
@@ -256,33 +247,30 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, and Award Letters.",
+  subtitle: "Achievements, Certifications, and Award Letters.",
 
   achievementsCards: [
     {
       title: "Certified Kubernetes Administrator",
-      subtitle:
-        "Cloud Native Computing Foundation Certification",
+      subtitle: "Cloud Native Computing Foundation Certification",
       image: require("./assets/images/certified-kubernetes-admin.png"),
       imageAlt: "CKA",
       footerLink: [
         {
           name: "Certification",
           url: "https://www.credly.com/badges/d92e6780-c1e8-4222-be8d-a93775b78d71"
-        },
+        }
       ]
     },
     {
       title: "GitOps Certified For Argo",
-      subtitle:
-        "Codefresh Certification for ArgoCD GitOps Fundamentals.",
+      subtitle: "Codefresh Certification for ArgoCD GitOps Fundamentals.",
       image: require("./assets/images/argo-fundamentals.png"),
       imageAlt: "ArgoCD GitOops Fundamentals",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/drive/u/0/folders/1itp1t2o2hK0zHz3Kwus9niAyV3e8PH2V"
+          url: "https://drive.google.com/file/d/1c8Z4j31QUEqpNjrPr6egiCNCiOyJvK_8/view?usp=sharing"
         }
       ]
     },
@@ -295,13 +283,14 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/drive/u/0/folders/1itp1t2o2hK0zHz3Kwus9niAyV3e8PH2V"
+          url: "https://drive.google.com/file/d/1zEOQkmP0YxH_KuWvho_NwuX8-gkj1fLJ/view?usp=sharing"
         }
       ]
     },
     {
       title: "Citrix Certified Associate Networking",
-      subtitle: "Citrix Certified Associate in Networking, App Delivery and Security.",
+      subtitle:
+        "Citrix Certified Associate in Networking, App Delivery and Security.",
       image: require("./assets/images/citrix-certified-networking.png"),
       imageAlt: "Citrix Certifications",
       footerLink: [
@@ -319,11 +308,10 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/drive/u/0/folders/1itp1t2o2hK0zHz3Kwus9niAyV3e8PH2V"
+          url: "https://drive.google.com/file/d/12tZo6di_CW7RefI9NmRmTZGsvivbU3DE/view?usp=sharing"
         }
       ]
-    },
-
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -388,7 +376,7 @@ const contactInfo = {
   title: emoji("Contact Me  ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for both.",
-  email_address: "ishansharma887@gmail.com",
+  email_address: "ishansharma887@gmail.com"
 };
 
 // Twitter Section
