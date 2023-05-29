@@ -3,4 +3,4 @@ repos:
   rev: "v3.0.0-alpha.9-for-vscode" # Use the sha or tag you want to point at
   hooks:
     - id: prettier
-      files: ".*.(json|js|css)"
+      types_or: [css, javascript,json]
