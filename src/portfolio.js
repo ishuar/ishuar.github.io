@@ -321,23 +321,17 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+    "I love to write and teach others what I have learned.",
+  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://dev.to/ishuar/terraform-and-ansible-teaming-up-for-automated-cloud-magic-3ob0",
+      title: "Terraform and Ansible: Teaming Up for Automated Cloud Magic",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "In the world of cloud automation, Terraform and Ansible form a seamless partnership. Terraform constructs infrastructure, while Ansible configures it. Leveraging dynamic inventories and GitHub Actions, the process gains efficiency."
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -382,11 +376,11 @@ const contactInfo = {
 // Twitter Section
 
 const twitterDetails = {
-  userName: "ishuar_", //Replace "twitter" with your twitter username without @
+  userName: "ishuar_", //Replace "Twitter" with your Twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
-const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be displayed as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
