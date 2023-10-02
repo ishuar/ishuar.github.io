@@ -26,7 +26,7 @@ const greeting = {
     "Skilled DevOps Engineer 🚀  with expertise in Terraform, Kubernetes, Public Cloud (AWS and Azure), and GitOps. Experienced in architecting and optimizing scalable infrastructure solutions for web applications. Committed to automation, efficiency, and continuous improvement."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1Mx2uzGj7915ywvu4lTImrNZ_VoWn_pBD/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1r1xMK8qBEgPLccA-6DXIP6NzrY16mMmY/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -320,8 +320,7 @@ const achievementSection = {
 
 const blogSection = {
   title: "Blogs",
-  subtitle:
-    "I love to write and teach others what I have learned.",
+  subtitle: "I love to write and teach others what I have learned.",
   displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
