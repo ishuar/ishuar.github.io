@@ -321,7 +321,7 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle: "I love to write and teach others what I have learned.",
-  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
+  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
       url: "https://dev.to/ishuar/terraform-and-ansible-teaming-up-for-automated-cloud-magic-3ob0",
