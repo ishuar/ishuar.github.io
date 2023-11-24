@@ -320,7 +320,8 @@ const achievementSection = {
 
 const blogSection = {
   title: "Blogs",
-  subtitle: "I am Passionate about knowledge sharing and helping individuals excel in their learning journeys.",
+  subtitle:
+    "I am Passionate about knowledge sharing and helping individuals excel in their learning journeys.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
