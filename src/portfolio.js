@@ -323,14 +323,7 @@ const blogSection = {
   subtitle:
     "I am Passionate about knowledge sharing and helping individuals excel in their learning journeys.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
-  blogs: [
-    {
-      url: "https://dev.to/ishuar/terraform-and-ansible-teaming-up-for-automated-cloud-magic-3ob0",
-      title: "Terraform and Ansible: Teaming Up for Automated Cloud Magic",
-      description:
-        "In the world of cloud automation, Terraform and Ansible form a seamless partnership. Terraform constructs infrastructure, while Ansible configures it. Leveraging dynamic inventories and GitHub Actions, the process gains efficiency."
-    }
-  ],
+  blogs: [],
   display: true // Set false to hide this section, defaults to true
 };
 
