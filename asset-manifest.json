@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ded4ce2f.css",
-    "main.js": "/static/js/main.6a83423d.js",
+    "main.js": "/static/js/main.3397a271.js",
     "static/css/64.917cfe77.chunk.css": "/static/css/64.917cfe77.chunk.css",
     "static/js/64.f47d6f02.chunk.js": "/static/js/64.f47d6f02.chunk.js",
     "static/css/769.70f3b610.chunk.css": "/static/css/769.70f3b610.chunk.css",
@@ -13,6 +13,7 @@
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/argo-fundamentals.png": "/static/media/argo-fundamentals.0ca3fb62d076d115f529.png",
     "static/media/aws-certified-solutions-architect.png": "/static/media/aws-certified-solutions-architect.4e12608104ff40b36237.png",
+    "static/media/commercetools.png": "/static/media/commercetools.cb49428634ee7c1abd8b.png",
     "static/media/adobe.png": "/static/media/adobe.e96bc1b67aec5200ad0e.png",
     "static/media/citrix-certified-networking.png": "/static/media/citrix-certified-networking.32019428b306b6fa4ee0.png",
     "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
@@ -27,7 +28,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.ded4ce2f.css.map": "/static/css/main.ded4ce2f.css.map",
-    "main.6a83423d.js.map": "/static/js/main.6a83423d.js.map",
+    "main.3397a271.js.map": "/static/js/main.3397a271.js.map",
     "64.917cfe77.chunk.css.map": "/static/css/64.917cfe77.chunk.css.map",
     "64.f47d6f02.chunk.js.map": "/static/js/64.f47d6f02.chunk.js.map",
     "769.70f3b610.chunk.css.map": "/static/css/769.70f3b610.chunk.css.map",
@@ -35,6 +36,6 @@
   },
   "entrypoints": [
     "static/css/main.ded4ce2f.css",
-    "static/js/main.6a83423d.js"
+    "static/js/main.3397a271.js"
   ]
 }
