@@ -155,9 +155,19 @@ const workExperiences = {
   experience: [
     {
       role: "Site Reliability Engineer",
+      company: "Commercetools",
+      companylogo: require("./assets/images/commercetools.png"),
+      date: "December 2023 – Present",
+      desc: "Empowering the Special Delivery Team and contributing to faster and reliabable service deliveries.",
+      descBullets: [
+        "Continuously optimizing processes to elevate overall team performance and customer satisfaction.",
+      ]
+    },
+    {
+      role: "Site Reliability Engineer",
       company: "Cloudeteer",
       companylogo: require("./assets/images/cloudeteer.png"),
-      date: "September 2021 – Present",
+      date: "September 2021 – November 2023",
       desc: "Supporting Mid and Large Scale Enterprises for a successfull migration to cloud and Devops Journey.",
       descBullets: [
         "Supporting Enterprise Customers in their Multi-Cloud Journey.",
