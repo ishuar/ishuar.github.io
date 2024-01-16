@@ -160,7 +160,7 @@ const workExperiences = {
       date: "December 2023 – Present",
       desc: "Empowering the Special Delivery Team and contributing to faster and reliabable service deliveries.",
       descBullets: [
-        "Continuously optimizing processes to elevate overall team performance and customer satisfaction.",
+        "Continuously optimizing processes to elevate overall team performance and customer satisfaction."
       ]
     },
     {
