@@ -155,13 +155,22 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Senior DevOps Engineer",
+      company: "About You",
+      companylogo: require("./assets/images/AboutYou.png"),
+      date: "March 2024 – Present",
+      desc: "Empowering the Payment Team and contributing to Lifecycle of system from infrastructure and Security Stand point.",
+      descBullets: []
+    },
+    {
       role: "Site Reliability Engineer",
       company: "Commercetools",
       companylogo: require("./assets/images/commercetools.png"),
-      date: "December 2023 – Present",
-      desc: "Empowering the Special Delivery Team and contributing to faster and reliabable service deliveries.",
+      date: "December 2023 – March 2024",
+      desc: "Empowering the Special Delivery Team and contributing to faster and reliable service deliveries.",
       descBullets: [
-        "Continuously optimizing processes to elevate overall team performance and customer satisfaction."
+        "Continuously optimizing processes to elevate overall team performance and customer satisfaction.",
+        "Support architecture in Multi-Cloud Kubernetes Deployments ArgoCD"
       ]
     },
     {
@@ -169,7 +178,7 @@ const workExperiences = {
       company: "Cloudeteer",
       companylogo: require("./assets/images/cloudeteer.png"),
       date: "September 2021 – November 2023",
-      desc: "Supporting Mid and Large Scale Enterprises for a successfull migration to cloud and Devops Journey.",
+      desc: "Supporting Mid and Large Scale Enterprises for a successful migration to cloud and Devops Journey.",
       descBullets: [
         "Supporting Enterprise Customers in their Multi-Cloud Journey.",
         "Educating and helping Enterprises on IaaC and GitOps principles.",
@@ -184,7 +193,7 @@ const workExperiences = {
       desc: "Web Application and Citrix networking administrator.",
       descBullets: [
         "Citrix Netscaler Administration",
-        "Migrating Monolothic to Microservices architecture on Kubernetes platform closely working with Developers",
+        "Migrating Monolithic to Microservices architecture on Kubernetes platform closely working with Developers",
         "Web Application Administration"
       ]
     },
@@ -192,7 +201,7 @@ const workExperiences = {
       role: "Technical Support Consultant",
       company: "Adobe",
       companylogo: require("./assets/images/adobe.png"),
-      date: "December 2018 – Ocotber 2019",
+      date: "December 2018 – October 2019",
       desc: "Creative Cloud suite and Single sign on consultant.",
       descBullets: [
         "Providing global Support for Adobe's Creative Cloud suite as a single sign on & product expert."
@@ -203,9 +212,9 @@ const workExperiences = {
       company: "HCL Technologies",
       companylogo: require("./assets/images/hcl.png"),
       date: "September 2016 – Sep December 2018",
-      desc: "IT Infrastrucutre Support Analyst.",
+      desc: "IT Infrastructure Support Analyst.",
       descBullets: [
-        "Supporting IT infrastructure of ExxonMobil Corporation with a major role in analyzing & troubleshooting multiple end-userprograms."
+        "Supporting IT infrastructure of ExxonMobil Corporation with a major role in analyzing & troubleshooting multiple end-user programs."
       ]
     }
   ]
@@ -275,7 +284,7 @@ const achievementSection = {
     },
     {
       title: "GitOps Certified For Argo",
-      subtitle: "Codefresh Certification for ArgoCD GitOps Fundamentals.",
+      subtitle: "CodeFresh Certification for ArgoCD GitOps Fundamentals.",
       image: require("./assets/images/argo-fundamentals.png"),
       imageAlt: "ArgoCD GitOops Fundamentals",
       footerLink: [
@@ -288,7 +297,7 @@ const achievementSection = {
 
     {
       title: "Terraform Award of Completion",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+      subtitle: "Certification Of Completion from KodeKloud",
       image: require("./assets/images/terraform-award-of-completion.png"),
       imageAlt: "Terraform Award of Completion",
       footerLink: [
