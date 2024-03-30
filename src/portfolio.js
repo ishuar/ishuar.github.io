@@ -170,7 +170,7 @@ const workExperiences = {
       desc: "Empowering the Special Delivery Team and contributing to faster and reliable service deliveries.",
       descBullets: [
         "Continuously optimizing processes to elevate overall team performance and customer satisfaction.",
-        "Support architecture in Multi-Cloud Kubernetes Deployments ArgoCD"
+        "Support architecture in Multi-Cloud Kubernetes Deployments with ArgoCD"
       ]
     },
     {
