@@ -38,7 +38,7 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/ishuar/",
   gmail: "ishansharma8870@gmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
-  instagram: "https://www.instagram.com/hamburgerindian/",
+  instagram: "https://www.instagram.com/devopswithishan/",
   stackoverflow: "https://stackoverflow.com/users/15808105/ishuar",
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
