@@ -271,6 +271,18 @@ const achievementSection = {
 
   achievementsCards: [
     {
+      title: "GitHub Actions Certified",
+      subtitle: "GitHub CI/CD",
+      image: require("./assets/images/github-actions-certified.png"),
+      imageAlt: "GitHub Actions",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.credly.com/badges/6bed4555-52c1-4169-944d-141d5ed79e44/public_url"
+        }
+      ]
+    },
+    {
       title: "Certified Kubernetes Administrator",
       subtitle: "Cloud Native Computing Foundation Certification",
       image: require("./assets/images/certified-kubernetes-admin.png"),
