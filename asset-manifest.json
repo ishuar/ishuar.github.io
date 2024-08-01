@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d2da2885.css",
-    "main.js": "/static/js/main.77405842.js",
+    "main.js": "/static/js/main.be1b7ab8.js",
     "static/css/64.917cfe77.chunk.css": "/static/css/64.917cfe77.chunk.css",
     "static/js/64.f47d6f02.chunk.js": "/static/js/64.f47d6f02.chunk.js",
     "static/css/769.70f3b610.chunk.css": "/static/css/769.70f3b610.chunk.css",
@@ -10,6 +10,7 @@
     "static/media/certified-kubernetes-admin.png": "/static/media/certified-kubernetes-admin.4f7734a93d6afd52a527.png",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/terraform-award-of-completion.png": "/static/media/terraform-award-of-completion.9549d66fe83b2bc045b9.png",
+    "static/media/github-actions-certified.png": "/static/media/github-actions-certified.24f6cd2276caacb455c9.png",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/argo-fundamentals.png": "/static/media/argo-fundamentals.0ca3fb62d076d115f529.png",
     "static/media/aws-certified-solutions-architect.png": "/static/media/aws-certified-solutions-architect.4e12608104ff40b36237.png",
@@ -28,7 +29,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.d2da2885.css.map": "/static/css/main.d2da2885.css.map",
-    "main.77405842.js.map": "/static/js/main.77405842.js.map",
+    "main.be1b7ab8.js.map": "/static/js/main.be1b7ab8.js.map",
     "64.917cfe77.chunk.css.map": "/static/css/64.917cfe77.chunk.css.map",
     "64.f47d6f02.chunk.js.map": "/static/js/64.f47d6f02.chunk.js.map",
     "769.70f3b610.chunk.css.map": "/static/css/769.70f3b610.chunk.css.map",
@@ -36,6 +37,6 @@
   },
   "entrypoints": [
     "static/css/main.d2da2885.css",
-    "static/js/main.77405842.js"
+    "static/js/main.be1b7ab8.js"
   ]
 }
