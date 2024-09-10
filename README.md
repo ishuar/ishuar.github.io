@@ -254,6 +254,15 @@ For more information, read [hosting on Netlify](https://create-react-app.dev/doc
 - [UnDraw](https://undraw.co/illustrations)
 - [Lottie by Oblikweare](https://lottiefiles.com/oblikweare)
 
+## How To Add New Section
+
+> [!NOTE]General Info:
+1. **Components**: Define individual elements, like a single book with details in the [Books Section](https://ishan.learndevops.in/#books).
+2. **Containers**: Define the main sections, like the entire Books section.
+3. **`main.js`**: The entry point of the web application 🚀.
+4. **`portfolio.js`**: The configuration file for end-users 🛠.
+
+> [!TIP] Use [feat: Added Books Section in the portfolio](https://github.com/ishuar/ishuar.github.io/pull/2) PR for reference.
 
 ## For the Future
 
