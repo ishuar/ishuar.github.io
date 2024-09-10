@@ -33,9 +33,7 @@ export default function BookCard({cardInfo, isDark}) {
           return (
             <span
               key={i}
-              className={
-                isDark ? "dark-mode book-tag" : "book-tag"
-              }
+              className={isDark ? "dark-mode book-tag" : "book-tag"}
               onClick={() => openUrlInNewTab(v.url, v.name)}
             >
               {v.name}
