@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.d2da2885.css",
-    "main.js": "/static/js/main.be1b7ab8.js",
+    "main.css": "/static/css/main.f607d5ab.css",
+    "main.js": "/static/js/main.d8bb8a0d.js",
     "static/css/64.917cfe77.chunk.css": "/static/css/64.917cfe77.chunk.css",
     "static/js/64.f47d6f02.chunk.js": "/static/js/64.f47d6f02.chunk.js",
     "static/css/769.70f3b610.chunk.css": "/static/css/769.70f3b610.chunk.css",
-    "static/js/769.6fd1347b.chunk.js": "/static/js/769.6fd1347b.chunk.js",
+    "static/js/769.48fe5f74.chunk.js": "/static/js/769.48fe5f74.chunk.js",
     "static/media/delhiUniversity.png": "/static/media/delhiUniversity.dab8f07213b43e7ad1c6.png",
+    "static/media/the-phoenix-project.png": "/static/media/the-phoenix-project.19a1f8c71f922ad30679.png",
+    "static/media/teams-topologies.png": "/static/media/teams-topologies.1eb1ab1dc7e256179068.png",
     "static/media/certified-kubernetes-admin.png": "/static/media/certified-kubernetes-admin.4f7734a93d6afd52a527.png",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/terraform-award-of-completion.png": "/static/media/terraform-award-of-completion.9549d66fe83b2bc045b9.png",
@@ -28,15 +30,15 @@
     "static/media/nextuLogo.webp": "/static/media/nextuLogo.e033dbfa4c58c0a906aa.webp",
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.d2da2885.css.map": "/static/css/main.d2da2885.css.map",
-    "main.be1b7ab8.js.map": "/static/js/main.be1b7ab8.js.map",
+    "main.f607d5ab.css.map": "/static/css/main.f607d5ab.css.map",
+    "main.d8bb8a0d.js.map": "/static/js/main.d8bb8a0d.js.map",
     "64.917cfe77.chunk.css.map": "/static/css/64.917cfe77.chunk.css.map",
     "64.f47d6f02.chunk.js.map": "/static/js/64.f47d6f02.chunk.js.map",
     "769.70f3b610.chunk.css.map": "/static/css/769.70f3b610.chunk.css.map",
-    "769.6fd1347b.chunk.js.map": "/static/js/769.6fd1347b.chunk.js.map"
+    "769.48fe5f74.chunk.js.map": "/static/js/769.48fe5f74.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d2da2885.css",
-    "static/js/main.be1b7ab8.js"
+    "static/css/main.f607d5ab.css",
+    "static/js/main.d8bb8a0d.js"
   ]
 }
