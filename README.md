@@ -4,7 +4,7 @@
 
 <p align="center">
   <kbd>
-<img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjBybnU2aWR6cGQ4eWE5YmJ4Y3V2bnEwcXpsajZscjZzZWd6eDkydyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RqHn8cavUJ2upT6HLm/giphy.gif"></img>
+<img src="https://private-user-images.githubusercontent.com/38211728/366671273-761d4995-3345-4d10-8fe5-fe6e3e25e2bd.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjYwOTg5MzYsIm5iZiI6MTcyNjA5ODYzNiwicGF0aCI6Ii8zODIxMTcyOC8zNjY2NzEyNzMtNzYxZDQ5OTUtMzM0NS00ZDEwLThmZTUtZmU2ZTNlMjVlMmJkLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA5MTElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwOTExVDIzNTAzNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWZkZWU5YWFjNDhjOGUzZGE4YmVhOTEwMmFlZmE1ZTY3ZjkwODIzOGJiZWZlNmE5Y2ViNmZmM2UxYmUxODA2ZTImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.54m-hkREjzo_m85yZdm71XavnjS8mmnPL6yDiT2NTJs"></img>
   </kbd>
 </p>
 
@@ -61,12 +61,14 @@ git@2.17.1 or higher
 ```
 
 ### Docker Commands
-1) BUILD IMAGE :
+
+1. BUILD IMAGE :
 
 ```bash
 docker build -t developerfolio:latest .
 ```
-2) RUN IMAGE:
+
+2. RUN IMAGE:
 
 ```bash
  docker run -t -p 3000:3000 developerfolio:latest
