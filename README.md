@@ -1,11 +1,11 @@
-# Software Developer Folio ⚡️ [![GitHub](https://img.shields.io/github/license/ishuar/ishuar.github.io?color=blue)](https://github.com/ishuar/ishuar.github.io/blob/main/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/ishuar/developerFolio)](https://github.com/ishuar/ishuar.github.io/stargazers)  [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
+# Developer Folio ⚡️ [![GitHub](https://img.shields.io/github/license/ishuar/ishuar.github.io?color=blue)](https://github.com/ishuar/ishuar.github.io/blob/main/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/ishuar/ishuar.github.io)](https://github.com/ishuar/ishuar.github.io/stargazers)  [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
 
-## A clean, beautiful and responsive portfolio template for Developers!
+## A clean, beautiful and responsive portfolio template for Everyone!
 
 
 <p align="center">
   <kbd>
-<img src="https://user-images.githubusercontent.com/53429438/106779355-e9cd9e80-666c-11eb-9417-8a4b54441bc6.gif"></img>
+<img src="./.github/assets/ishan.learndevops.in.gif"></img>
   </kbd>
 </p>
 
@@ -38,11 +38,14 @@ Created something awesome for your fork of the portfolio and want to share it? F
 ✔️ Big Projects\
 ✔️ Achievements And Certifications 🏆\
 ✔️ Blogs\
+✔️ Books\
 ✔️ Talks\
 ✔️ Podcast\
 ✔️ Contact me\
 ✔️ Twitter Timeline\
-✔️ GitHub Profile
+✔️ GitHub Profile\
+✔️ Topmate Profile
+
 
 To view a live example, **[click here](https://developerfolio.js.org/)**.
 
