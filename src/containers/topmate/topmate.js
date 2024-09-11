@@ -1,14 +1,12 @@
-import React, {useContext, useEffect} from "react";
+import React, {useEffect} from "react";
 import {topmateWidget} from "../../portfolio";
-import StyleContext from "../../contexts/StyleContext";
 
 function TopmateWidgetButton() {
-  const {isDark} = useContext(StyleContext);
-
   useEffect(() => {
     if (topmateWidget.display && topmateWidget.userName) {
       const script = document.createElement("script");
       const userName = topmateWidget.userName;
+
       script.src =
         "https://topmate-embed.s3.ap-south-1.amazonaws.com/v1/topmate-embed.js";
       script.setAttribute(
