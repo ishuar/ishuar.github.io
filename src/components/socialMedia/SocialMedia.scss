@@ -40,6 +40,10 @@
   background-color: $github;
 }
 
+.whatsapp i {
+  background-color: $whatsapp;
+}
+
 .gitlab i {
   background-color: $gitlab;
 }
@@ -72,14 +76,17 @@
 .twitter i:hover,
 .google i:hover,
 .gitlab i:hover,
-.github i:hover,
 .linkedin i:hover,
 .facebook i:hover,
 .instagram i:hover,
+.whatsapp i:hover,
 .stack-overflow i:hover,
 .kaggle i:hover,
 .medium i:hover {
   background-color: $textColor;
+}
+.github i:hover {
+  background-color: $google;
 }
 
 /* Media Query */
