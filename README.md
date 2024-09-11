@@ -46,7 +46,7 @@ Created something awesome for your fork of the portfolio and want to share it? F
 ✔️ GitHub Profile\
 ✔️ Topmate Profile
 
-To view a live example, **[click here](https://developerfolio.js.org/)**.
+To view a live example, **[click here](https://ishan.learndevops.in/)**.
 
 ## Getting Started
 
