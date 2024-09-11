@@ -4,7 +4,7 @@
 
 <p align="center">
   <kbd>
-<img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjBybnU2aWR6cGQ4eWE5YmJ4Y3V2bnEwcXpsajZscjZzZWd6eDkydyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RqHn8cavUJ2upT6HLm/giphy.gif"></img>
+<img src="./.github/assets/ishan.learndevops.in.gif"></img>
   </kbd>
 </p>
 
