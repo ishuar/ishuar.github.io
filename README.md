@@ -281,6 +281,6 @@ For more information, read [hosting on Netlify](https://create-react-app.dev/doc
 
 ## For the Future
 
-- Connect with LinkedIn to get Summary, Skills, Education and Experience
+- Connect at [LinkedIn](https://www.linkedin.com/in/ishuar/) to get Summary, Skills, Education and Experience
 
 ---
