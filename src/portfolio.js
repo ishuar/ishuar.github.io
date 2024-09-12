@@ -159,7 +159,7 @@ const workExperiences = {
     {
       role: "Senior DevOps Engineer",
       company: "About You",
-      companylogo: require("./assets/images/AboutYou.png"),
+      companylogo: require("./assets/images/experiences/AboutYou.png"),
       date: "March 2024 – Present",
       desc: "Empowering the Payment Team and contributing to Lifecycle of system from infrastructure and Security Stand point.",
       descBullets: []
@@ -167,7 +167,7 @@ const workExperiences = {
     {
       role: "Site Reliability Engineer",
       company: "Commercetools",
-      companylogo: require("./assets/images/commercetools.png"),
+      companylogo: require("./assets/images/experiences/commercetools.png"),
       date: "December 2023 – March 2024",
       desc: "Empowering the Special Delivery Team and contributing to faster and reliable service deliveries.",
       descBullets: [
@@ -178,7 +178,7 @@ const workExperiences = {
     {
       role: "Site Reliability Engineer",
       company: "Cloudeteer",
-      companylogo: require("./assets/images/cloudeteer.png"),
+      companylogo: require("./assets/images/experiences/cloudeteer.png"),
       date: "September 2021 – November 2023",
       desc: "Supporting Mid and Large Scale Enterprises for a successful migration to cloud and Devops Journey.",
       descBullets: [
@@ -190,7 +190,7 @@ const workExperiences = {
     {
       role: "Senior Engineer",
       company: "HELLA",
-      companylogo: require("./assets/images/hella.png"),
+      companylogo: require("./assets/images/experiences/hella.png"),
       date: "October 2019 – August 2021",
       desc: "Web Application and Citrix networking administrator.",
       descBullets: [
@@ -202,7 +202,7 @@ const workExperiences = {
     {
       role: "Technical Support Consultant",
       company: "Adobe",
-      companylogo: require("./assets/images/adobe.png"),
+      companylogo: require("./assets/images/experiences/adobe.png"),
       date: "December 2018 – October 2019",
       desc: "Creative Cloud suite and Single sign on consultant.",
       descBullets: [
@@ -212,7 +212,7 @@ const workExperiences = {
     {
       role: "Analyst",
       company: "HCL Technologies",
-      companylogo: require("./assets/images/hcl.png"),
+      companylogo: require("./assets/images/experiences/hcl.png"),
       date: "September 2016 – Sep December 2018",
       desc: "IT Infrastructure Support Analyst.",
       descBullets: [
@@ -275,7 +275,7 @@ const achievementSection = {
     {
       title: "GitHub Actions Certified",
       subtitle: "GitHub CI/CD",
-      image: require("./assets/images/github-actions-certified.png"),
+      image: require("./assets/images/achievements/github-actions-certified.png"),
       imageAlt: "GitHub Actions",
       footerLink: [
         {
@@ -287,7 +287,7 @@ const achievementSection = {
     {
       title: "Certified Kubernetes Administrator",
       subtitle: "Cloud Native Computing Foundation Certification",
-      image: require("./assets/images/certified-kubernetes-admin.png"),
+      image: require("./assets/images/achievements/certified-kubernetes-admin.png"),
       imageAlt: "CKA",
       footerLink: [
         {
@@ -299,7 +299,7 @@ const achievementSection = {
     {
       title: "GitOps Certified For Argo",
       subtitle: "CodeFresh Certification for ArgoCD GitOps Fundamentals.",
-      image: require("./assets/images/argo-fundamentals.png"),
+      image: require("./assets/images/achievements/argo-fundamentals.png"),
       imageAlt: "ArgoCD GitOops Fundamentals",
       footerLink: [
         {
@@ -312,7 +312,7 @@ const achievementSection = {
     {
       title: "Terraform Award of Completion",
       subtitle: "Certification Of Completion from KodeKloud",
-      image: require("./assets/images/terraform-award-of-completion.png"),
+      image: require("./assets/images/achievements/terraform-award-of-completion.png"),
       imageAlt: "Terraform Award of Completion",
       footerLink: [
         {
@@ -325,7 +325,7 @@ const achievementSection = {
       title: "Citrix Certified Associate Networking",
       subtitle:
         "Citrix Certified Associate in Networking, App Delivery and Security.",
-      image: require("./assets/images/citrix-certified-networking.png"),
+      image: require("./assets/images/achievements/citrix-certified-networking.png"),
       imageAlt: "Citrix Certifications",
       footerLink: [
         {
@@ -337,7 +337,7 @@ const achievementSection = {
     {
       title: "AWS Certified Solutions Architect",
       subtitle: "AWS Certified Solutions Architect - Associate.",
-      image: require("./assets/images/aws-certified-solutions-architect.png"),
+      image: require("./assets/images/achievements/aws-certified-solutions-architect.png"),
       imageAlt: "AWS Certifications",
       footerLink: [
         {
