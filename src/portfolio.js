@@ -24,7 +24,7 @@ const greeting = {
   username: "Ishan Sharma",
   title: "Hello everyone, I'm Ishan",
   subTitle: emoji(
-    "Skilled DevOps Engineer 🚀  with expertise in Terraform, Kubernetes, Public Cloud (AWS and Azure), and GitOps. Experienced in architecting and optimizing scalable infrastructure solutions for web applications. Committed to automation, efficiency, and continuous improvement."
+    "Skilled DevOps Engineer 🚀  with expertise in Terraform, Kubernetes, Public Cloud (AWS and Azure), and GitOps. Experienced in designing and optimizing scalable infrastructure solutions for web applications. Committed to automation, efficiency, and continuous improvement."
   ),
   resumeLink:
     // DevOps 7+ years of experience ::git blame::
@@ -162,7 +162,12 @@ const workExperiences = {
       companylogo: require("./assets/images/experiences/AboutYou.png"),
       date: "March 2024 – Present",
       desc: "Empowering the Payment Team and contributing to Lifecycle of system from infrastructure and Security Stand point.",
-      descBullets: []
+      descBullets: [
+        "Led project deliveries by architecting solutions, collaborating,cross-functionally and ensuring transparent stakeholder communication, with 100% on-time delivery.",
+        "Boosted platform performance by ~90% through operational excellence, implementing observability and APM alerts with Datadog and Kubernetes",
+        "Implemented DevSecOps in GitLab pipelines with Gitlab Ultimate Licensing, reducing security breaches by 80%.",
+        "Advocated & Mentored fellow engineers in adopting DevOps industry best practices, raising team productivity and quality by 25%."
+      ]
     },
     {
       role: "Site Reliability Engineer",
@@ -196,6 +201,7 @@ const workExperiences = {
       descBullets: [
         "Citrix Netscaler Administration",
         "Migrating Monolithic to Microservices architecture on Kubernetes platform closely working with Developers",
+        "Load-Balancing, Delivering optimized and performance focused web applications through Citrix ADC in internal & DMZ Zones.",
         "Web Application Administration"
       ]
     },
@@ -206,7 +212,8 @@ const workExperiences = {
       date: "December 2018 – October 2019",
       desc: "Creative Cloud suite and Single sign on consultant.",
       descBullets: [
-        "Providing global Support for Adobe's Creative Cloud suite as a single sign on & product expert."
+        "Providing global Support for Adobe's Creative Cloud suite as a single sign on & product expert.",
+        "Helping enterprises to configure Adobe's SP initiated SSO on their on-premise and public cloud such as 'Azure, Google & AWS' infrastructure."
       ]
     },
     {
@@ -216,7 +223,8 @@ const workExperiences = {
       date: "September 2016 – Sep December 2018",
       desc: "IT Infrastructure Support Analyst.",
       descBullets: [
-        "Supporting IT infrastructure of ExxonMobil Corporation with a major role in analyzing & troubleshooting multiple end-user programs."
+        "Supporting IT infrastructure of ExxonMobil Corporation with a major role in analyzing & troubleshooting multiple end-user programs.",
+        "Communicated with various teams and understood the process of various activities with their hierarchical execution. Learned to put 100% of my caliber daily and deliver the same."
       ]
     }
   ]
