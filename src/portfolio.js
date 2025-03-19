@@ -27,8 +27,8 @@ const greeting = {
     "Skilled DevOps Engineer 🚀  with expertise in Terraform, Kubernetes, Public Cloud (AWS and Azure), and GitOps. Experienced in designing and optimizing scalable infrastructure solutions for web applications. Committed to automation, efficiency, and continuous improvement."
   ),
   resumeLink:
-    // DevOps 7+ years of experience ::git blame::
-    "https://drive.google.com/file/d/1uDeEl-3DQMW8Y0KDLZQwToUbY0WWIBSG/view?usp=sharing", // Set to empty to hide the button
+    // DevOps 8+ years of experience ::git blame::
+    "https://drive.google.com/file/d/1U2VbHSWJlWP-59Iu52YJsOT745dVNzdT/view?usp=share_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
