@@ -32,6 +32,32 @@ export const bookSection = {
           url: "https://ishan.learndevops.in/#books"
         }
       ]
+    },
+    {
+      title: "The Alchemist",
+      subtitle: "A Fable About Following Your Dream",
+      image: require("./assets/images/books/the-alchemist.png"),
+      imageAlt: "The Alchemist: A Fable About Following Your Dream",
+      footerLink: [
+        {
+          name: "Philosophy & Fiction",
+          url: "https://ishan.learndevops.in/#books"
+        }
+      ]
+    },
+    {
+      title: "The Fountainhead:",
+      subtitle:
+        "A Novel About Individualism, Creativity, and the Struggle for Integrity",
+      image: require("./assets/images/books/the-fountainhead.png"),
+      imageAlt:
+        "The Fountainhead: A Novel About Individualism, Creativity, and the Struggle for Integrity",
+      footerLink: [
+        {
+          name: "Philosophy & Fiction",
+          url: "https://ishan.learndevops.in/#books"
+        }
+      ]
     }
   ]
 };
