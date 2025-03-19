@@ -1,13 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.9236a9ba.css",
-    "main.js": "/static/js/main.7c71f5a8.js",
+    "main.js": "/static/js/main.00949f7d.js",
     "static/css/487.bb36206c.chunk.css": "/static/css/487.bb36206c.chunk.css",
     "static/js/487.3147b230.chunk.js": "/static/js/487.3147b230.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/static/css/990.c6a7ee28.chunk.css",
     "static/js/990.10b5f29f.chunk.js": "/static/js/990.10b5f29f.chunk.js",
     "static/media/delhiUniversity.png": "/static/media/delhiUniversity.dab8f07213b43e7ad1c6.png",
     "static/media/the-phoenix-project.png": "/static/media/the-phoenix-project.19a1f8c71f922ad30679.png",
+    "static/media/the-fountainhead.png": "/static/media/the-fountainhead.654b1627a5d5915523f4.png",
+    "static/media/the-alchemist.png": "/static/media/the-alchemist.cbc0bed88c020e175fa6.png",
     "static/media/teams-topologies.png": "/static/media/teams-topologies.1eb1ab1dc7e256179068.png",
     "static/media/certified-kubernetes-admin.png": "/static/media/certified-kubernetes-admin.4f7734a93d6afd52a527.png",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
@@ -31,7 +33,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.9236a9ba.css.map": "/static/css/main.9236a9ba.css.map",
-    "main.7c71f5a8.js.map": "/static/js/main.7c71f5a8.js.map",
+    "main.00949f7d.js.map": "/static/js/main.00949f7d.js.map",
     "487.bb36206c.chunk.css.map": "/static/css/487.bb36206c.chunk.css.map",
     "487.3147b230.chunk.js.map": "/static/js/487.3147b230.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/static/css/990.c6a7ee28.chunk.css.map",
@@ -39,6 +41,6 @@
   },
   "entrypoints": [
     "static/css/main.9236a9ba.css",
-    "static/js/main.7c71f5a8.js"
+    "static/js/main.00949f7d.js"
   ]
 }
