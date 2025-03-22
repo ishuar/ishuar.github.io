@@ -140,6 +140,7 @@
   }
 }
 
+// for small screens (mobile phones)
 @media (max-width: 768px) {
   .experience-text-role {
     font-size: 22px;
@@ -153,4 +154,7 @@
   .experience-text-desc {
     font-size: 16px;
   }
+    .experience-banner {
+      height: 10;
+    }
 }
