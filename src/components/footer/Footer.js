@@ -17,7 +17,7 @@ export default function Footer() {
             isDark ? "dark-mode footer-text-custom" : "footer-text-custom"
           }
         >
-          <i class="fa-regular fa-copyright"></i>
+          <i className="fa-regular fa-copyright"></i>
           {""}
           <a href="https://ishan.learndevops.in/"> Ishan Sharma </a> & Theme by{" "}
           {""}
