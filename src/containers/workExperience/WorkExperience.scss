@@ -17,7 +17,7 @@
   margin-top: 2rem;
 }
 
-.experience-container > * {
+.experience-container>* {
   flex: 1;
 }
 
@@ -33,5 +33,24 @@
   .experience-heading {
     font-size: 30px;
     text-align: center;
+  }
+  .experience-text-role {
+    font-size: 22px;
+  }
+
+  .experience-text-company {
+    font-size: 22px;
+  }
+
+  .experience-text-date {
+    font-size: 18px;
+  }
+
+  .experience-text-desc {
+    font-size: 16px;
+  }
+
+  .experience-banner {
+    height: 10px;
   }
 }
