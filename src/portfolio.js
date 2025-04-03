@@ -199,8 +199,9 @@ const workExperiences = {
       date: "October 2019 – August 2021",
       desc: "Web Application and Citrix networking administrator.",
       descBullets: [
-        "Citrix Netscaler Administration",
         "Migrating Monolithic to Microservices architecture on Kubernetes platform closely working with Developers",
+        "Self Hosted & Cloud Kubernetes Lifecycle management.",
+        "Citrix Netscaler Administration",
         "Load-Balancing, Delivering optimized and performance focused web applications through Citrix ADC in internal & DMZ Zones.",
         "Web Application Administration"
       ]
