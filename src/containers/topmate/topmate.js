@@ -31,7 +31,7 @@ function TopmateWidgetButton() {
 
       document.body.appendChild(script);
     }
-  }, [topmateWidget.display, topmateWidget.userName]);
+  }, []);
 
   if (!topmateWidget.display || !topmateWidget.userName) {
     console.error("Username or display for Topmate section is missing");
