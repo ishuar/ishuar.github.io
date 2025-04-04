@@ -1,5 +1,3 @@
 import "jest-canvas-mock";
-import {configure} from "enzyme";
-import Adapter from "enzyme-adapter-react-16";
-
-configure({adapter: new Adapter()});
+import "@testing-library/jest-dom";
+// No need for enzyme configuration with React Testing Library
