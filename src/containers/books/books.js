@@ -2,7 +2,7 @@ import React, {useContext} from "react";
 import "./book.scss";
 import BookCard from "../../components/bookCard/BookCard";
 import {bookSection} from "../../portfolio";
-import {Fade} from "react-reveal";
+import {Fade} from "react-awesome-reveal";
 import StyleContext from "../../contexts/StyleContext";
 export default function Book() {
   const {isDark} = useContext(StyleContext);
@@ -10,7 +10,7 @@ export default function Book() {
     return null;
   }
   return (
-    <Fade bottom duration={1000} distance="20px">
+    <Fade direction="up" triggerOnce distance="20px">
       <div className="main" id="books">
         <div className="book-main-div">
           <div className="book-header">
