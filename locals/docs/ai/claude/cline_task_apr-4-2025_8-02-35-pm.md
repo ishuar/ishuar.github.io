@@ -14,7 +14,7 @@ Ofcourse whatever changes are related to upgrade needs to be updated that might 
 # Current Time
 04/04/2025, 7:44:45 pm (Europe/Berlin, UTC+2:00)
 
-# Current Working Directory (/Users/ishuar/devops/github/ishuar.github.io) Files
+# Current Working Directory ($HOMEDIR/devops/github/ishuar.github.io) Files
 .gitattributes
 .gitignore
 .pre-commit-config.yaml
@@ -1759,91 +1759,91 @@ const path = require('path');
 // Function to recursively find all .js files in a directory
 function findJsFiles(dir, fileList = []) {
   const files = fs.readdirSync(dir);
-  
+
   files.forEach(file => {
     const filePath = path.join(dir, file);
     const stat = fs.statSync(filePath);
-    
+
     if (stat.isDirectory()) {
       findJsFiles(filePath, fileList);
     } else if (file.endsWith('.js')) {
       fileList.push(filePath);
     }
   });
-  
+
   return fileList;
 }
 
 // Function to update imports and component usage
 function updateFile(filePath) {
   let content = fs.readFileSync(filePath, 'utf8');
-  
+
   // Skip files that don't use react-reveal
   if (!content.includes('react-reveal')) {
     return;
   }
-  
+
   console.log(`Updating ${filePath}`);
-  
+
   // Update import statements
   content = content.replace(
     /import\s+\{\s*Fade\s*\}\s+from\s+["']react-reveal["']/g,
     'import { Fade } from "react-awesome-reveal"'
   );
-  
+
   content = content.replace(
     /import\s+\{\s*Fade\s*,\s*Slide\s*\}\s+from\s+["']react-reveal["']/g,
     'import { Fade, Slide } from "react-awesome-reveal"'
   );
-  
+
   // Update Fade component usage
   content = content.replace(
     /<Fade\s+left(\s+duration=\{[^}]+\})?/g,
     '<Fade direction="left" triggerOnce'
   );
-  
+
   content = content.replace(
     /<Fade\s+right(\s+duration=\{[^}]+\})?/g,
     '<Fade direction="right" triggerOnce'
   );
-  
+
   content = content.replace(
     /<Fade\s+bottom(\s+duration=\{[^}]+\})?/g,
     '<Fade direction="up" triggerOnce'
   );
-  
+
   content = content.replace(
     /<Fade\s+top(\s+duration=\{[^}]+\})?/g,
     '<Fade direction="down" triggerOnce'
   );
-  
+
   // For Fade without direction, just add triggerOnce
   content = content.replace(
     /<Fade(\s+duration=\{[^}]+\})?(?!\s+direction)/g,
     '<Fade triggerOnce'
   );
-  
+
   // Update Slide component usage if present
   content = content.replace(
     /<Slide\s+left(\s+duration=\{[^}]+\})?/g,
     '<Slide direction="left" triggerOnce'
   );
-  
+
   content = content.replace(
     /<Slide\s+right(\s+duration=\{[^}]+\})?/g,
     '<Slide direction="right" triggerOnce'
   );
-  
+
   content = content.replace(
     /<Slide\s+bottom(\s+duration=\{[^}]+\})?/g,
     '<Slide direction="up" triggerOnce'
   );
-  
+
   content = content.replace(
     /<Slide\s+top(\s+duration=\{[^}]+\})?/g,
     '<Slide direction="down" triggerOnce'
   );
-  
+
   fs.writeFileSync(filePath, content, 'utf8');
 }
 
@@ -1851,9 +1851,9 @@ function updateFile(filePath) {
 function main() {
   const srcDir = path.join(__dirname, 'src');
   const jsFiles = findJsFiles(srcDir);
-  
+
   jsFiles.forEach(updateFile);
-  
+
   console.log('All files updated successfully!');
 }
 
@@ -1869,16 +1869,16 @@ main();
 The user made the following updates to your content:
 
 @@ -3,103 +3,103 @@
- 
+
  // Function to recursively find all .js files in a directory
  function findJsFiles(dir, fileList = []) {
    const files = fs.readdirSync(dir);
--  
+-
 +
    files.forEach(file => {
      const filePath = path.join(dir, file);
      const stat = fs.statSync(filePath);
--    
+-
 +
      if (stat.isDirectory()) {
        findJsFiles(filePath, fileList);
@@ -1886,110 +1886,110 @@ The user made the following updates to your content:
        fileList.push(filePath);
      }
    });
--  
+-
 +
    return fileList;
  }
- 
+
  // Function to update imports and component usage
  function updateFile(filePath) {
    let content = fs.readFileSync(filePath, 'utf8');
--  
+-
 +
    // Skip files that don't use react-reveal
    if (!content.includes('react-reveal')) {
      return;
    }
--  
+-
 +
    console.log(`Updating ${filePath}`);
--  
+-
 +
    // Update import statements
    content = content.replace(
      /import\s+\{\s*Fade\s*\}\s+from\s+["']react-reveal["']/g,
      'import { Fade } from "react-awesome-reveal"'
    );
--  
+-
 +
    content = content.replace(
      /import\s+\{\s*Fade\s*,\s*Slide\s*\}\s+from\s+["']react-reveal["']/g,
      'import { Fade, Slide } from "react-awesome-reveal"'
    );
--  
+-
 +
    // Update Fade component usage
    content = content.replace(
      /<Fade\s+left(\s+duration=\{[^}]+\})?/g,
      '<Fade direction="left" triggerOnce'
    );
--  
+-
 +
    content = content.replace(
      /<Fade\s+right(\s+duration=\{[^}]+\})?/g,
      '<Fade direction="right" triggerOnce'
    );
--  
+-
 +
    content = content.replace(
      /<Fade\s+bottom(\s+duration=\{[^}]+\})?/g,
      '<Fade direction="up" triggerOnce'
    );
--  
+-
 +
    content = content.replace(
      /<Fade\s+top(\s+duration=\{[^}]+\})?/g,
      '<Fade direction="down" triggerOnce'
    );
--  
+-
 +
    // For Fade without direction, just add triggerOnce
    content = content.replace(
      /<Fade(\s+duration=\{[^}]+\})?(?!\s+direction)/g,
      '<Fade triggerOnce'
    );
--  
+-
 +
    // Update Slide component usage if present
    content = content.replace(
      /<Slide\s+left(\s+duration=\{[^}]+\})?/g,
      '<Slide direction="left" triggerOnce'
    );
--  
+-
 +
    content = content.replace(
      /<Slide\s+right(\s+duration=\{[^}]+\})?/g,
      '<Slide direction="right" triggerOnce'
    );
--  
+-
 +
    content = content.replace(
      /<Slide\s+bottom(\s+duration=\{[^}]+\})?/g,
      '<Slide direction="up" triggerOnce'
    );
--  
+-
 +
    content = content.replace(
      /<Slide\s+top(\s+duration=\{[^}]+\})?/g,
      '<Slide direction="down" triggerOnce'
    );
--  
+-
 +
    fs.writeFileSync(filePath, content, 'utf8');
  }
- 
+
  // Main function
  function main() {
    const srcDir = path.join(__dirname, 'src');
    const jsFiles = findJsFiles(srcDir);
--  
+-
 +
    jsFiles.forEach(updateFile);
--  
+-
 +
    console.log('All files updated successfully!');
  }
- 
+
  main();
 
 
@@ -2250,7 +2250,7 @@ Let's run the application to make sure everything works correctly:
 The user denied this operation.
 The user provided the following feedback:
 <feedback>
-╰─$ npm install          
+╰─$ npm install
 npm error code ERESOLVE
 npm error ERESOLVE could not resolve
 npm error
@@ -2285,9 +2285,9 @@ npm error
 npm error For a full report see:
 npm error /Users/ishuar/.npm/_logs/2025-04-04T18_00_40_790Z-eresolve-report.txt
 npm error A complete log of this run can be found in: /Users/ishuar/.npm/_logs/2025-04-04T18_00_40_790Z-debug-0.log
-╭─ishuar@macbook ~/devops/github/ishuar.github.io ‹main●› 
+╭─ishuar@macbook ~/devops/github/ishuar.github.io ‹main●›
 ╰─$                                                                                1 ↵
-╭─ishuar@macbook ~/devops/github/ishuar.github.io ‹main●› 
+╭─ishuar@macbook ~/devops/github/ishuar.github.io ‹main●›
 ╰─$ npm install                                                                  130 ↵
 npm error code ERESOLVE
 npm error ERESOLVE could not resolve
@@ -2322,7 +2322,7 @@ npm error
 npm error
 npm error For a full report see:
 npm error /Users/ishuar/.npm/_logs/2025-04-04T18_00_48_135Z-eresolve-report.txt
-npm error A complete log of this run can be found in: /Users/ishuar/.npm/_logs/2025-04-04T18_00_48_135Z-debug-0.log╰─$ npm install          
+npm error A complete log of this run can be found in: /Users/ishuar/.npm/_logs/2025-04-04T18_00_48_135Z-debug-0.log╰─$ npm install
 npm error code ERESOLVE
 npm error ERESOLVE could not resolve
 npm error
@@ -2357,9 +2357,9 @@ npm error
 npm error For a full report see:
 npm error /Users/ishuar/.npm/_logs/2025-04-04T18_00_40_790Z-eresolve-report.txt
 npm error A complete log of this run can be found in: /Users/ishuar/.npm/_logs/2025-04-04T18_00_40_790Z-debug-0.log
-╭─ishuar@macbook ~/devops/github/ishuar.github.io ‹main●› 
+╭─ishuar@macbook ~/devops/github/ishuar.github.io ‹main●›
 ╰─$                                                                                1 ↵
-╭─ishuar@macbook ~/devops/github/ishuar.github.io ‹main●› 
+╭─ishuar@macbook ~/devops/github/ishuar.github.io ‹main●›
 ╰─$ npm install                                                                  130 ↵
 npm error code ERESOLVE
 npm error ERESOLVE could not resolve
@@ -3209,7 +3209,7 @@ Compiling...
 Failed to compile.
 
 Module not found: Error: Can't resolve '@emotion/react/jsx-runtime' in '/Users/ishuar/devops/github/ishuar.github.io/node_modules/react-awesome-reveal/dist'
-WARNING in [eslint] 
+WARNING in [eslint]
 src/containers/topmate/topmate.js
   Line 34:6:  React Hook useEffect has unnecessary dependencies: 'topmateWidget.display' and 'topmateWidget.userName'. Either exclude them or remove the dependency array. Outer scope values like 'topmateWidget.display' aren't valid dependencies because mutating them doesn't re-render the component  react-hooks/exhaustive-deps
 

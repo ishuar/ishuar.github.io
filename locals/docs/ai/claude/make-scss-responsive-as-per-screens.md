@@ -30,12 +30,6 @@
 - [How to Adjust This File](#how-to-adjust-this-file-1)
   - [**Explanation**](#explanation)
   - [**Why This is Consistent**](#why-this-is-consistent)
-- [⚔️ `@import` vs `@use`](#️-import-vs-use)
-  - [🛑 `@import` (Legacy)](#-import-legacy)
-  - [✅ `@use` (Modern, Modular)](#-use-modern-modular)
-- [🧠 TL;DR Which One Is Better?](#-tldr-which-one-is-better)
-- [🚀 Recommendation for You](#-recommendation-for-you)
-
 
 ## Claude Chat Link
 
