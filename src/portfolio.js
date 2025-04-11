@@ -28,7 +28,7 @@ const greeting = {
   ),
   resumeLink:
     // DevOps 8+ years of experience (latest style:https://app.makemycv.com/ ) ::git blame::
-    "https://drive.google.com/file/d/15hd9LrUw5QlkqrhjowAqe2uEGi2XNsb4/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1TUnoeSBtvtDPN7Tos2r9GT_or77j1FgS/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
