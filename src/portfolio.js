@@ -155,11 +155,12 @@ const techStack = {
 
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
+  // role, company, date and desc are required field for each experience section
   experience: [
     {
       role: "Senior DevOps Engineer",
       company: "About You",
-      companylogo: require("./assets/images/experiences/AboutYou.png"),
+      companyLogo: require("./assets/images/experiences/AboutYou.png"),
       date: "March 2024 – Present",
       desc: "Empowering the Payment Team and contributing to Lifecycle of system from infrastructure and Security Stand point.",
       descBullets: [
@@ -172,7 +173,7 @@ const workExperiences = {
     {
       role: "Site Reliability Engineer",
       company: "Commercetools",
-      companylogo: require("./assets/images/experiences/commercetools.png"),
+      companyLogo: require("./assets/images/experiences/commercetools.png"),
       date: "December 2023 – March 2024",
       desc: "Empowering the Special Delivery Team and contributing to faster and reliable service deliveries.",
       descBullets: [
@@ -183,7 +184,7 @@ const workExperiences = {
     {
       role: "Site Reliability Engineer",
       company: "Cloudeteer",
-      companylogo: require("./assets/images/experiences/cloudeteer.png"),
+      companyLogo: require("./assets/images/experiences/cloudeteer.png"),
       date: "September 2021 – November 2023",
       desc: "Supporting Mid and Large Scale Enterprises for a successful migration to cloud and Devops Journey.",
       descBullets: [
@@ -195,7 +196,7 @@ const workExperiences = {
     {
       role: "Senior Engineer",
       company: "HELLA",
-      companylogo: require("./assets/images/experiences/hella.png"),
+      companyLogo: require("./assets/images/experiences/hella.png"),
       date: "October 2019 – August 2021",
       desc: "Web Application and Citrix networking administrator.",
       descBullets: [
@@ -209,7 +210,7 @@ const workExperiences = {
     {
       role: "Technical Support Consultant",
       company: "Adobe",
-      companylogo: require("./assets/images/experiences/adobe.png"),
+      companyLogo: require("./assets/images/experiences/adobe.png"),
       date: "December 2018 – October 2019",
       desc: "Creative Cloud suite and Single sign on consultant.",
       descBullets: [
@@ -220,7 +221,7 @@ const workExperiences = {
     {
       role: "Analyst",
       company: "HCL Technologies",
-      companylogo: require("./assets/images/experiences/hcl.png"),
+      companyLogo: require("./assets/images/experiences/hcl.png"),
       date: "September 2016 – Sep December 2018",
       desc: "IT Infrastructure Support Analyst.",
       descBullets: [
