@@ -42,7 +42,7 @@ export default function ExperienceCard({cardInfo, isDark}) {
           crossOrigin={"anonymous"}
           ref={imgRef}
           className="experience-roundedimg"
-          src={cardInfo.companylogo}
+          src={cardInfo.companyLogo}
           alt={cardInfo.company}
           onLoad={() => getColorArrays()}
         />
