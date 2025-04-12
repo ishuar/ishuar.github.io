@@ -1,3 +1,6 @@
-import "jest-canvas-mock";
+// jest-dom adds custom jest matchers for asserting on DOM nodes.
 import "@testing-library/jest-dom";
-// No need for enzyme configuration with React Testing Library
+import "jest-canvas-mock";
+
+// Mock ColorThief
+jest.mock("colorthief");
