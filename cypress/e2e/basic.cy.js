@@ -2,70 +2,50 @@
 describe("Portfolio Website", () => {
   beforeEach(() => {
     cy.visit("/");
-    // Give the page more time to load and animations to complete
-    cy.wait(2000);
+
+    // Create aliases for common elements
+    cy.get("#experience").as("experienceSection");
+    cy.get(".experience-cards-div").as("cardsContainer");
   });
 
   it("should load the home page", () => {
-    cy.get("h1").should("be.visible");
+    cy.get("h1", { timeout: 10000 }).should("be.visible");
   });
 
   it("should display work experience section", () => {
-    // First check if section exists
-    cy.get("#experience").should("exist");
-
-    // Scroll to experience section to trigger animations
-    cy.get("#experience").scrollIntoView().should("be.visible");
-
-    // Wait for animations to complete
-    cy.wait(1000);
-
-    // Two approaches for handling the fade component:
-
-    // Option 1: Check if the element exists without opacity constraint
-    cy.get("[data-testid='fade-component']", {timeout: 15000})
+    cy.get("@experienceSection")
       .should("exist")
-      .then($el => {
-        // Check if any experience cards are visible within this element
-        cy.wrap($el).find(".experience-cards-div").should("exist");
+      .scrollIntoView({ duration: 500 })
+      .should("be.visible");
+
+    cy.get("h1.experience-heading")
+      .should("be.visible")
+      .and("contain", "Experiences");
+  });
+
+  it("should display experience cards with required content", () => {
+    // First scroll to experience section
+    cy.get("@experienceSection").scrollIntoView({ duration: 500 });
+
+    // Wait for the cards container
+    cy.get("@cardsContainer")
+      .should("exist")
+      .and("be.visible")
+      .within(() => {
+        // Find any experience card (light or dark mode)
+        cy.get('[class*="experience-card"]')
+          .should("have.length.at.least", 1)
+          .first()
+          .as("firstCard");
       });
 
-    // Option 2: If you still need to check opacity, use should with retries
-    /*
-    cy.get("[data-testid='fade-component']", { timeout: 15000 })
-      .should(($el) => {
-        // Allow for any opacity greater than 0
-        const opacity = parseFloat(window.getComputedStyle($el[0]).opacity);
-        expect(opacity).to.be.greaterThan(0);
-      })
-      .find(".experience-cards-div")
-      .should("exist");
-    */
-  });
-
-  // Additional test to verify experience card content
-  it("should display experience cards with required content", () => {
-    // Scroll to experience section to ensure it's in view and animations are triggered
-    cy.get("#experience").scrollIntoView().should("be.visible");
-
-    // Wait for animations to complete
-    cy.wait(2000);
-
-    // Check if experience cards exist first
-    cy.get(".experience-cards-div").should("exist");
-
-    // Now check for the content with increased timeout
-    cy.get(".experience-text-role", {timeout: 10000})
-      .first()
-      .should("be.visible");
-    cy.get(".experience-text-company", {timeout: 10000})
-      .first()
-      .should("be.visible");
-    cy.get(".experience-text-date", {timeout: 10000})
-      .first()
-      .should("be.visible");
-    cy.get(".experience-text-desc", {timeout: 10000})
-      .first()
-      .should("be.visible");
+    // Check the first card's content
+    cy.get("@firstCard").within(() => {
+      cy.get(".experience-text-role").should("be.visible");
+      cy.get(".experience-text-company").should("be.visible");
+      cy.get(".experience-text-date").should("be.visible");
+      cy.get(".experience-text-desc").should("be.visible");
+    });
   });
 });
+
