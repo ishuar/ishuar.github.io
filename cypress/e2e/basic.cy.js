@@ -9,13 +9,13 @@ describe("Portfolio Website", () => {
   });
 
   it("should load the home page", () => {
-    cy.get("h1", { timeout: 10000 }).should("be.visible");
+    cy.get("h1", {timeout: 10000}).should("be.visible");
   });
 
   it("should display work experience section", () => {
     cy.get("@experienceSection")
       .should("exist")
-      .scrollIntoView({ duration: 500 })
+      .scrollIntoView({duration: 500})
       .should("be.visible");
 
     cy.get("h1.experience-heading")
@@ -25,7 +25,7 @@ describe("Portfolio Website", () => {
 
   it("should display experience cards with required content", () => {
     // First scroll to experience section
-    cy.get("@experienceSection").scrollIntoView({ duration: 500 });
+    cy.get("@experienceSection").scrollIntoView({duration: 500});
 
     // Wait for the cards container
     cy.get("@cardsContainer")
@@ -48,4 +48,3 @@ describe("Portfolio Website", () => {
     });
   });
 });
-
