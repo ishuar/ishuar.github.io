@@ -14,6 +14,11 @@ on:
       - '*.md'
       - '**/*.md'
       - '**/ISSUE_TEMPLATE/**'
+
+concurrency:
+  group: prettier-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   check-format:
     runs-on: ubuntu-latest
