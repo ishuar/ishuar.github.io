@@ -1,0 +1,36 @@
+name: Unit Tests
+description: Run end-to-end tests
+on:
+  pull_request:
+    branches:
+      - main
+    paths-ignore:
+      - '*.md'
+      - '**/*.md'
+      - '**/ISSUE_TEMPLATE/**'
+concurrency:
+  group: unit-tests-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout Code 🛎️
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js and Cache Dependencies 📦
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20.x
+          cache: 'npm'
+
+      - name: Install Dependencies 🔧
+        run: npm ci
+
+      - name: Build Project 🛠️
+        run: npm run build
+
+      - name: Run Tests ✅
+        run: npm test -- --watchAll=false
