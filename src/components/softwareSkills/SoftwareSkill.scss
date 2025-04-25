@@ -1,31 +1,64 @@
 @use "../../_globalColor" as *;
 
+//? constant variables
+$textFontSize: small;
+$margin: 3%;
+$display: inline-block;
+
 .dev-icons {
   padding-left: 0;
   list-style: none;
-  font-size: 3rem;
-  margin-bottom: 0px;
-  margin-top: 0px;
+  font-size: clamp(2rem, 4vw, 3rem); /* approximately 32px to 48px */
+  margin-bottom: 2%;
+  margin-top: 5%;
   text-align: center;
 }
 
 .software-skill-inline {
-  display: inline-block;
-  margin-right: 20px;
-  margin-bottom: 20px;
+  display: $display;
+  margin-right: $margin;
+  margin-bottom: $margin;
 }
 
 .software-skill-inline > i {
   color: $subTitle;
 }
 
+
 .software-skill-inline > i:hover {
   color: $skillsColor;
 }
+
 .software-skill-inline > p {
   color: $subTitle;
-  font-size: 10px;
+  font-size: $textFontSize;
 }
+
+
 .software-skill-inline > i:hover ~ p {
+  color: $skillsColor;
+}
+
+// ? Dark Theme configuration
+
+.software-skill-inline-dark {
+  display: $display;
+  margin-right: $margin;
+  margin-bottom: $margin;
+}
+
+.software-skill-inline-dark > i {
+  color: $subTitleDark;
+}
+
+.software-skill-inline-dark > p {
+  color: $subTitleDark;
+  font-size: $textFontSize;
+}
+
+.software-skill-inline-dark > i:hover {
+  color: $skillsColor;
+}
+.software-skill-inline-dark > i:hover ~ p {
   color: $skillsColor;
 }

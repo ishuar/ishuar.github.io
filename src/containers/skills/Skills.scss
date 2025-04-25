@@ -21,8 +21,10 @@
 }
 
 .skills-heading {
-  font-size: 47px;
+  font-size: clamp(1.8rem, 4vw, 2.6rem); /* approximately 28px to 47px */
   font-weight: 400;
+  line-height: 1;
+  margin-bottom: 1rem;
 }
 .subTitle {
   color: $subTitle;
