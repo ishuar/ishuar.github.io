@@ -25,7 +25,7 @@ $font-size: (
     'large': clamp(1.5rem, 5vw, 2rem)),
   'role': ('base': clamp(1.125rem, 4vw, 1.5625rem),
     'large': clamp(1.25rem, 4vw, 1.50rem)),
-  'date': ('base': clamp(0.875rem, 3vw, 1.125rem),
+  'date': ('base': clamp(0.85rem, 2.5vw, 1.1rem),
     'large': clamp(0.9rem, 3vw, 1.10rem)),
   'description': ('base': clamp(0.75rem, 2vw, .95rem)),
   'description-text': ('base': clamp(0.65rem, 2vw, 0.9rem))
@@ -199,6 +199,8 @@ $font-size: (
   top: clamp(3.5rem, 10vh, 7rem);
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: auto;
+  margin-top: auto;
   width: clamp(4.5rem, 12vw, 8rem);
   height: clamp(4.5rem, 12vw, 8rem);
   box-shadow: 0 0.5rem 1rem $lightBoxShadowDarker;
@@ -221,9 +223,9 @@ $font-size: (
   color: $textColor;
   font-weight: 700;
   font-size: map-get(map-get($font-size, 'role'), 'base');
-  margin: 0;
+  margin: inherit;
   padding-top: fluid-spacing(2.5, 3.0);
-  line-height: 1.3;
+  line-height: 1;
 
   @include respond-to('md') {
     font-size: map-get(map-get($font-size, 'role'), 'large');
@@ -241,7 +243,7 @@ $font-size: (
   font-size: map-get(map-get($font-size, 'date'), 'base');
   margin: 0;
   padding-top: fluid-spacing(0.5, 1);
-  font-weight: 700;
+  font-weight: 300;
 
   @include respond-to('md') {
     font-size: map-get(map-get($font-size, 'date'), 'large');
