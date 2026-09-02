@@ -1,14 +1,9 @@
-# Description
+## What and why
 
-Please include a summary of the change and which issue is fixed. Please also include relevant motivation and context. List any dependencies that are required for this change.
+<!-- What changed and why? Link to issue if applicable. -->
 
-Fixes # (issue)
+Fixes #
 
-## Type of change
+## Notes for reviewers
 
-<!-- Please delete options that are not relevant.-->
-
-- [ ] Bug fix (non-breaking change which fixes an issue)
-- [ ] New feature (non-breaking change which adds functionality)
-- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
-- [ ] This change requires a documentation update
+<!-- Anything non-obvious: breaking changes, migration steps, areas to focus review, manual testing done. Leave empty if straightforward. -->
