@@ -35,12 +35,9 @@ Created something awesome for your fork of the portfolio and want to share it? F
 ✔️ Education\
 ✔️ Work Experience\
 ✔️ Open Source Projects Connected with GitHub\
-✔️ Big Projects\
 ✔️ Achievements And Certifications 🏆\
 ✔️ Blogs\
 ✔️ Books\
-✔️ Talks\
-✔️ Podcast\
 ✔️ Contact me\
 ✔️ Twitter Timeline\
 ✔️ GitHub Profile\
@@ -185,8 +182,6 @@ const techStack = { .... }
 const workExperience = { .... }
 
 const openSource = { .... }
-
-const bigProjects = { .... }
 
 const achievementSection = { .... }
 
