@@ -1,4 +1,4 @@
-import {recolorLottie} from "./utils";
+import {recolorLottie} from "./recolorLottie";
 
 // Minimal Lottie-shaped fixture: one fill and one stroke in "ink" navy,
 // one fill in a colour that must stay untouched.

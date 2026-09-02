@@ -2,10 +2,10 @@ import React, {Suspense, useContext, useMemo} from "react";
 import Lottie from "lottie-react";
 import Loading from "../../containers/loading/Loading";
 import StyleContext from "../../contexts/StyleContext";
-import {recolorLottie} from "../../utils";
+import {recolorLottie} from "./recolorLottie";
 
 export default function DisplayLottie({animationData, darkModeColors}) {
-  // Splash screen and tests may render outside StyleProvider.
+  // Unit tests render this component without a StyleProvider.
   const isDark = Boolean(useContext(StyleContext)?.isDark);
   const themedData = useMemo(
     () =>
