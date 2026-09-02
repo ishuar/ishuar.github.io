@@ -25,6 +25,7 @@ Created something awesome for your fork of the portfolio and want to share it? F
 - [Deployment](#deployment)
 - [Technologies Used](#technologies-used)
 - [Illustrations](#illustrations)
+- [Contributing](#contributing)
 - [For the Future](#for-the-future)
 - [Contributors](#project-maintainers)
 
@@ -281,6 +282,12 @@ For more information, read [hosting on Netlify](https://create-react-app.dev/doc
 
 > [!TIP]
 > Use [feat: Added Books Section in the portfolio](https://github.com/ishuar/ishuar.github.io/pull/2) PR for reference.
+
+## Contributing
+
+Commit messages and PR titles follow [Conventional Commits 1.0.0](https://www.conventionalcommits.org/en/v1.0.0/):
+`type(scope): summary`. Types in use: `feat`, `fix`, `chore`, `ci`, `docs`, `refactor`, `test`.
+PRs are squash-merged, so the PR title becomes the commit on `main`.
 
 ## For the Future
 
