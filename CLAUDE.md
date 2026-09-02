@@ -139,6 +139,12 @@ numbered steps with one bounded action each, no preamble, no closing filler.
   a local hook: if `main` is checked out, `git switch -c <branch>` first.
 - **Never force-push to `main`.** Force-push to your own branch is fine.
 - All changes go through a branch (`git switch -c` or a worktree) and a PR.
+- **PR titles and commit messages follow
+  [Conventional Commits 1.0.0](https://www.conventionalcommits.org/en/v1.0.0/):**
+  `type(scope): summary`, lower-case, imperative, no trailing period. Types in
+  use: `feat`, `fix`, `chore`, `ci`, `docs`, `refactor`, `test`. Squash-merge
+  takes the PR title as the commit on `main`, so the title is the commit that
+  matters.
 - Never run `npm run deploy` or `gh-pages` locally. Deployment is the Actions
   workflow only. Enforced by the guard hook.
 
