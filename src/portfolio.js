@@ -17,7 +17,14 @@ const splashScreen = {
 // Summary And Greeting Section
 
 const illustration = {
-  animated: true // Set to false to use static SVG
+  animated: true, // Set to false to use static SVG
+  // Lottie "ink" colours (outlines, hair, furniture) that vanish on the dark
+  // background, mapped to $darkBoxShadow from _globalColor.scss. Update when
+  // replacing a JSON in assets/lottie/.
+  darkModeColors: {
+    "#080039": "#d9dbdf", // landingPerson.json, codingPerson.json
+    "#0a0a0a": "#d9dbdf" // build.json
+  }
 };
 
 const greeting = {
