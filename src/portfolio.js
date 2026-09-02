@@ -17,7 +17,16 @@ const splashScreen = {
 // Summary And Greeting Section
 
 const illustration = {
-  animated: true // Set to false to use static SVG
+  animated: true, // Set to false to use static SVG
+  // Lottie "ink" colours (outlines, hair, furniture) that vanish on the dark
+  // background. Update when replacing a JSON in assets/lottie/.
+  // The value duplicates $darkBoxShadow in _globalColor.scss on purpose: Sass
+  // variables cannot reach JS without a CSS-modules export, which Jest and
+  // Vite do not process for plain .scss files.
+  darkModeColors: {
+    "#080039": "#d9dbdf", // landingPerson.json, codingPerson.json
+    "#0a0a0a": "#d9dbdf" // build.json
+  }
 };
 
 const greeting = {
