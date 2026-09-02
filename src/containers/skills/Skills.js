@@ -18,10 +18,7 @@ export default function Skills() {
         <Fade direction="left" triggerOnce>
           <div className="skills-image-div">
             {illustration.animated ? (
-              <DisplayLottie
-                animationData={codingPerson}
-                darkModeColors={illustration.darkModeColors}
-              />
+              <DisplayLottie animationData={codingPerson} />
             ) : (
               <img
                 alt="Man Working"

@@ -205,10 +205,7 @@ For adding emoji 😃 into the texts in `Portfolio.js`, use the `emoji()` functi
 
 #### Customize Lottie Animations
 
-1. Download a Lottie as JSON from [lottiefiles.com](https://lottiefiles.com/).
-2. In `src/assets/lottie`, replace the file you want to change, keeping the same file name.
-3. In `src/portfolio.js`, update `illustration.darkModeColors`: map any near-black "ink" colour in the new JSON to a light colour, or it will vanish in dark mode. Colours are lower-case `#rrggbb`.
-4. Playback options (loop, autoplay) live in `src/components/displayLottie/DisplayLottie.js`; see the [lottie-react docs](https://www.npmjs.com/package/lottie-react).
+You can choose a Lottie and download it in json format from from sites like [this](https://lottiefiles.com/). In `src/assets/lottie`, replace the Lottie json file you want to alter with the same file name. If you want to change the Lottie options, go to `src/components/displayLottie/DisplayLottie.js` and change the `defaultOptions` object, you can refer [react-lottie docs](https://www.npmjs.com/package/react-lottie) for more info on the `defaultOptions` object.
 
 #### Adding Twitter Time line to your Page
 
