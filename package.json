@@ -5,12 +5,12 @@
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.14.0",
-    "@emotion/styled": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
     "@testing-library/jest-dom": "^6.4.2",
     "@testing-library/react": "^14.2.1",
     "colorthief": "^2.4.0",
     "gh-pages": "^6.1.1",
-    "jest-canvas-mock": "^2.5.2",
+    "jest-canvas-mock": "^2.5.8",
     "lottie-react": "^2.4.0",
     "react": "^18.2.0",
     "react-awesome-reveal": "^4.2.7",
@@ -20,7 +20,7 @@
     "react-scripts": "^5.0.1",
     "react-test-renderer": "^18.2.0",
     "react-twitter-embed": "4.0.4",
-    "sass": "^1.72.0"
+    "sass": "^1.103.1"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -57,9 +57,9 @@
   },
   "devDependencies": {
     "dotenv": "^16.4.5",
-    "prettier": "^3.2.5",
+    "prettier": "^3.9.6",
     "cypress": "14.3.0",
     "start-server-and-test": "^2.0.3",
-    "serve": "^14.2.1"
+    "serve": "^14.2.6"
   }
 }
