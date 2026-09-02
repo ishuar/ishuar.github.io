@@ -31,13 +31,11 @@ build fails or renders empty sections — the most common "it's broken" cause.
 ## Guard hook
 
 `.claude/settings.json` runs `.claude/hooks/guard.sh` on every Write, Edit and
-Bash call. It denies: writes or shell redirects to `.env*`; `npm run deploy`
-and `gh-pages`; `git push` to main or any force push; `git commit`, `merge`,
-`rebase`, `cherry-pick`, `revert`, `reset --hard` while checked out on main;
-`gh api` writes to `/contents/`. A denial is a rule, not a bug — switch to a
-branch or ask me. Known gap: the hook matches on command text, so a `grep` or
-heredoc containing one of those strings is also denied; use the Write tool or
-rephrase the command.
+Bash call. It denies two things: writes, redirects or `tee` into `.env*`, and
+local deploys (`npm run deploy`, `gh-pages`). A denial is a rule, not a bug.
+Known gaps: `sed -i` on `.env` is not caught; a `grep` or heredoc containing one
+of the deploy strings is denied too — use the Write tool or rephrase. Branch
+protection for `main` is a GitHub repo setting, not a hook (see Git rules).
 
 ## Commands
 
@@ -137,7 +135,9 @@ numbered steps with one bounded action each, no preamble, no closing filler.
 ## Git rules
 
 - **Never commit or push to `main` — no exceptions.** Includes indirect writes
-  such as `gh api PUT /contents`. Enforced by the guard hook.
+  such as `gh api PUT /contents`. Enforced by GitHub branch protection, not by
+  a local hook: if `main` is checked out, `git switch -c <branch>` first.
+- **Never force-push to `main`.** Force-push to your own branch is fine.
 - All changes go through a branch (`git switch -c` or a worktree) and a PR.
 - Never run `npm run deploy` or `gh-pages` locally. Deployment is the Actions
   workflow only. Enforced by the guard hook.
