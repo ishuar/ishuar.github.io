@@ -1,0 +1,25 @@
+# Dependabot owns version bumps (CLAUDE.md, Dependencies). Renovate was removed
+# because it never opened a bump PR here; Dependabot did every one.
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+    # One PR for all minor and patch bumps; majors stay separate for review.
+    groups:
+      npm-minor-and-patch:
+        update-types:
+          - minor
+          - patch
+    commit-message:
+      prefix: "chore(deps)"
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+    commit-message:
+      prefix: "ci(deps)"
