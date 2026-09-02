@@ -180,8 +180,9 @@ Terms below are defined in `CONTEXT.md`.
 ## Testing
 
 - Unit tests run with **no network and no token**. Anything that needs
-  Build-time data is mocked with a fixture. Two test files exist today:
-  `src/App.test.js` and `src/containers/workExperience/WorkExperience.test.js`.
+  Build-time data is mocked with a fixture. Three test files exist today:
+  `src/App.test.js`, `src/containers/workExperience/WorkExperience.test.js` and
+  `src/components/githubRepoCard/GithubRepoCard.test.js`.
 - Tests are characterization tests at seams: a Container renders its Section
   from a Content-shaped fixture. Don't test internals; don't snapshot Lottie or
   third-party embeds.
