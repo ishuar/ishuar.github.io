@@ -79,6 +79,14 @@ if (USE_GITHUB_DATA === "true") {
       data += d;
     });
     res.on("end", () => {
+      // GraphQL responds 200 even when fields are forbidden for the token;
+      // surface those errors in the build log instead of hiding them.
+      const errors = JSON.parse(data).errors;
+      if (errors) {
+        console.warn(
+          `GitHub GraphQL returned ${errors.length} error(s): ${errors[0].message}`
+        );
+      }
       fs.writeFile("./public/profile.json", data, function (err) {
         if (err) return console.log(err);
         console.log("saved file to public/profile.json");
