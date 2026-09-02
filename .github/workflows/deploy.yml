@@ -2,7 +2,9 @@ name: Build Portfolio and Deploy
 env:
   CI: false
   GITHUB_USERNAME: ${{ github.repository_owner }}
-  REACT_APP_GITHUB_TOKEN: ${{ github.token }} # This is automatically set by Github Actions
+  # github.token cannot read `stargazers` on pinned repos (FORBIDDEN).
+  # Set the GH_PAT secret (read-only public repo access) for full data.
+  REACT_APP_GITHUB_TOKEN: ${{ secrets.GH_PAT || github.token }}
   USE_GITHUB_DATA: "true"
   MEDIUM_USERNAME: "ishuar" # Change this to your medium username
 on:
