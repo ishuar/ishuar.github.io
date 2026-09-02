@@ -37,7 +37,7 @@ jobs:
         run: npm run build
 
       - name: Run E2E Tests 🧪
-        uses: cypress-io/github-action@v6
+        uses: cypress-io/github-action@v7
         with:
           start: npm run start:ci
           wait-on: 'http://localhost:3000'
