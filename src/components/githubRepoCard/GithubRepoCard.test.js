@@ -8,8 +8,6 @@ jest.mock("react-awesome-reveal", () => ({
 }));
 
 // Shape of one pinnedItems edge as written by fetch.js into profile.json.
-// stargazerCount is the scalar field readable by fine-grained tokens; the
-// stargazers connection is not.
 const repo = {
   node: {
     name: "terraform-azurerm-aks",
