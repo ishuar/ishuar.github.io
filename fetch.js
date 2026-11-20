@@ -38,9 +38,10 @@ if (USE_GITHUB_DATA === "true") {
               name
               description
               forkCount
-              stargazers {
-                totalCount
-              }
+              # stargazerCount, not stargazers { totalCount }: fine-grained
+              # tokens get FORBIDDEN on the connection and GraphQL then nulls
+              # the whole repo node.
+              stargazerCount
               url
               id
               diskUsage
