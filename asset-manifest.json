@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.a4f17059.css",
-    "main.js": "/static/js/main.804c070a.js",
+    "main.js": "/static/js/main.94acf926.js",
     "static/css/487.bb36206c.chunk.css": "/static/css/487.bb36206c.chunk.css",
-    "static/js/487.33cdef75.chunk.js": "/static/js/487.33cdef75.chunk.js",
+    "static/js/487.ce9f56a5.chunk.js": "/static/js/487.ce9f56a5.chunk.js",
     "static/css/990.65670fc8.chunk.css": "/static/css/990.65670fc8.chunk.css",
     "static/js/990.154a1e4d.chunk.js": "/static/js/990.154a1e4d.chunk.js",
     "static/media/delhiUniversity.png": "/static/media/delhiUniversity.dab8f07213b43e7ad1c6.png",
@@ -33,14 +33,14 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.a4f17059.css.map": "/static/css/main.a4f17059.css.map",
-    "main.804c070a.js.map": "/static/js/main.804c070a.js.map",
+    "main.94acf926.js.map": "/static/js/main.94acf926.js.map",
     "487.bb36206c.chunk.css.map": "/static/css/487.bb36206c.chunk.css.map",
-    "487.33cdef75.chunk.js.map": "/static/js/487.33cdef75.chunk.js.map",
+    "487.ce9f56a5.chunk.js.map": "/static/js/487.ce9f56a5.chunk.js.map",
     "990.65670fc8.chunk.css.map": "/static/css/990.65670fc8.chunk.css.map",
     "990.154a1e4d.chunk.js.map": "/static/js/990.154a1e4d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a4f17059.css",
-    "static/js/main.804c070a.js"
+    "static/js/main.94acf926.js"
   ]
 }
