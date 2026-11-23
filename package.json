@@ -56,7 +56,7 @@
     ]
   },
   "devDependencies": {
-    "dotenv": "^16.4.5",
+    "dotenv": "^18.0.10",
     "prettier": "^3.10.1",
     "cypress": "14.3.0",
     "start-server-and-test": "^3.0.13",
